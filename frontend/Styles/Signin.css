@@ -1,0 +1,105 @@
+.NetflixLogo{
+    height: 150px;
+    width: 220px;
+    object-fit: contain;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2000;
+    top: -20px;
+    left: 20px;
+  }
+
+.Netflix-Background-image{
+    height: 100%;
+    min-width: 900px;
+    width: 100%;
+    object-fit: contain;
+    filter: brightness(50%);
+}
+.SignInTitleContainer{
+    width: 380px;
+    margin-bottom: 20px;
+    z-index: 1000;
+    
+}
+.SigninContainer{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    height: 500px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    background-color: rgba(0, 0, 0, 0.653);
+}
+.SigninTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align:left;
+    color: white;
+}
+.EmailAddress{
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white
+}
+.EmailAddress::placeholder{
+    color: rgb(196, 191, 191);
+}
+
+.Password{
+    margin-top: 4px;
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+}
+.Password::placeholder{
+    color: rgb(196, 191, 191);
+}
+.Signin{
+    height: 45px;
+    width: 380px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Signin:hover{
+    cursor: pointer;
+    background-color: rgb(205, 5, 5);
+}
+.InactiveGetStarted{
+    display: none;
+}
+#New{
+    color: rgb(163, 162, 162);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Signupnow{
+    display: flex;
+}
+#SignupLink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+#SignupLink:hover{
+    text-decoration: 2px solid white underline ;
+}

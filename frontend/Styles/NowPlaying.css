@@ -1,0 +1,53 @@
+.NowPlayingContainer {
+    height: 280px;
+    min-width: 900px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px; /* Optional: Add some padding */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  .MovieContainer {
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: white; /* Ensure text is visible */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    flex-shrink: 0;    /*Prevent flex items from shrinking */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better appearance */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .MovieContainer:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .NowPlayingContainer::-webkit-scrollbar {
+    height: 8px;
+  }
+    
+  .NowPlayingContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .NowPlayingContainer::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .MovieCategory>h1{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+  }

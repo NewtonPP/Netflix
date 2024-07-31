@@ -1,0 +1,15 @@
+.VideoPlayPage{
+    height: 580px;
+    width: 1280px;
+    object-fit: cover;
+}
+.ArrowIcon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 10px;
+    top: 20px;
+    z-index: 1000;
+    color: white;
+
+}

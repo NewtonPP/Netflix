@@ -1,0 +1,104 @@
+.Netflix-Background-image{
+    height: 100%;
+    min-width: 900px;
+    width: 100%;
+    object-fit: contain;
+}
+.DescriptionBox{
+    height: 200px;
+    width: 850px;
+    z-index: 1000;
+    position: absolute;
+    top: 300px;
+    left: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+#MainPageTitle{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+#MainPageDescription1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#MainPageDescription2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.EmailAndGetStartedBox{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    height: 50px;
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.EmailAddress{
+    height: 45px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.EmailAddress::placeholder{
+    color: rgb(196, 191, 191);
+}
+.GetStarted{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.GetStarted:hover{
+    cursor: pointer;
+    background-color: rgb(205, 5, 5);
+}
+
+.Password{
+    margin-top: 4px;
+    height: 45px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.Password::placeholder{
+    color: rgb(196, 191, 191);
+}
+.Signup{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.Signup:hover{
+    cursor: pointer;
+    background-color: rgb(205, 5, 5);
+}
+.InactiveGetStarted{
+    display: none;
+}

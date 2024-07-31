@@ -1,0 +1,154 @@
+.MovieInformationContainer{
+    height: 570px;
+    width: 770px;
+    background-color: black;
+    position: fixed;
+    top:20px;
+    left: 250px;
+    z-index: 2000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    filter: brightness(100%);
+}
+.PlayButtonContainer{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+   background-color: rgba(0, 0, 0, 0.365);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 350px;
+   top: 150px;
+   border: 2px solid gray;
+}
+.MoviePlayIcon{
+    height: 35px;
+    width: 35px;
+    color: rgb(180, 177, 177);
+    border-radius: 5px;
+}
+.ImageContainer{
+    height: 400px;
+    width: 770px;
+}
+.PreviewImage{
+    height: 400px;
+    width: 770px;
+    object-fit: cover;
+}
+.MovieTitleAndOverview{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#MovieTitleName{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.OverviewContainer{
+    color: rgb(203, 200, 200);
+    min-height: 80px;
+    width: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.OverviewContainer>p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.CrossIcon{
+    color: white;
+    position: absolute;
+    left: 720px;
+    top: 10px; 
+    z-index: 2000;
+    height: 30px;
+    width: 30px;
+}
+.CrossIcon:hover{
+    transform: scale(1.15)
+}
+.Icons{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:30px;
+    margin-top: 20px;
+}
+.SingleIcon{
+    height: 70px;
+    width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.SingleIcon:hover #AddToListIcon {
+    color: white; 
+    transform: scale(1.1);
+    transition:0.3s ease-in-out;
+}
+.SingleIcon:hover #RateIcon{
+    color: white; 
+    transform: scale(1.1);
+    transition:0.3s ease-in-out;
+}
+.SingleIcon:hover #DownloadIcon{
+    color: white; 
+    transform: scale(1.1);
+    transition:0.3s ease-in-out;
+}
+.SingleIcon:hover>p{
+    color: white;
+}
+.SingleIcon>p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+#AddToListIcon{
+    color: white;
+    height: 50px;
+    width: 50px;
+    color: gray;
+}
+#RateIcon{
+    color: white;
+    height: 35px;
+    width: 35px;
+    color: gray;
+}
+#DownloadIcon{
+    color: white;
+    color: white;
+    height: 40px;
+    width: 40px;
+    color: gray;
+}
+#AddedToListIcon{
+    color:gray; 
+    height: 50px;
+    width: 50px;
+}
+.SingleIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .SingleIcon:hover #AddedToListIcon {
+    color: white; 
+    transform: scale(1.1);
+    transition:0.3s ease-in-out;
+}
+
+   

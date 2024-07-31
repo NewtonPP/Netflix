@@ -1,0 +1,45 @@
+
+.MyListPage{
+    height: 590px;
+    min-width: 900px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.MyListContainer{
+    overflow-y: scroll;
+    margin-top: 100px;
+    min-height: 500px;
+    min-width: 900px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.ListCardContainer{
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    color: white; /* Ensure text is visible */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    flex-shrink: 0;    /*Prevent flex items from shrinking */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better appearance */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.ListCardContainer:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+#state{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200; 
+  }

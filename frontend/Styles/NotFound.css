@@ -1,0 +1,64 @@
+.NotFoundPage{
+    height: 570px;
+    min-width: 900px;
+    width: 100%;
+}
+.header{
+    height: 70px;
+    min-width: 900px;
+    width: 100%;
+    background-color: black;
+}
+.Logo{
+    height:90px;
+    width: 140px;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+.LostinSpace{
+    height: 570px;
+    min-width: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+.NotFoundContent{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:300px;
+    left:400px;
+    justify-content: center;
+}
+.NotFoundContent>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+ 
+}
+.NotFoundContent>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+.NotFoundContent>button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    margin-top:5px;
+}
+.NotFoundContent>button:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
